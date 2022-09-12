@@ -6,20 +6,20 @@ btn.addEventListener('click',function(e) {
 	const numero = document.querySelector("#inputA");
 
 	const value = numero.value;
-	alert(
-	validarCpf(value));
+	alert(validarCpf(value));
 	
 	console.log(value);
 })
-/* 
+
 document.addEventListener("keypress", function(e){
 	if(e.key === "Enter"){
 		const btn = document.querySelector("#inputCPF");
 	
 		btn.click();
+		alert(cpfValido);
 	}
-	alert(cpfValido);
-}); */
+	
+});
 
 function validarPrimeiroDigito(cpf) {
 	let sum = 0;
