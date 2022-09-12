@@ -1,0 +1,113 @@
+body { 
+position: relative;
+width: 1440px;
+height: 50%;
+background: rgba(6, 4, 4, 0.3);}
+
+h1 {
+position: absolute;
+width: 1440px;
+height: 50%s;
+top: -120px;
+left: 290px;
+font-family: 'Dangrek';
+font-style: normal;
+font-weight: 400;
+font-size: 200px;
+line-height: 325px;
+text-transform: uppercase;
+color: #FFF7E3;
+text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.5);
+}
+
+h2 {
+position: absolute;
+width: 1440px;
+height: 10%;
+top: 750px;
+left: 215px;
+font-family: 'Alumni Sans';
+font-style: normal;
+font-weight: 200;
+font-size: 65px;
+line-height: .9;
+text-align: center;
+text-transform: uppercase;
+color: #FFF7E3;    
+}
+
+#inputA {
+position: absolute;
+width: 641px;
+height: 74px;
+left: 510px;
+top: 420px;
+font-family: 'Teko';
+font-style: normal;
+font-weight: 400;
+font-size: 60px;
+line-height: 77px;
+background: #FFF7E3;
+box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.5);
+border-radius: 10px;
+}
+
+#inputCPF {
+position: absolute;
+width: 186px;
+height: 74px;  
+left: 1170px;
+top: 420px;
+font-family: 'Teko';
+font-style: normal;
+font-weight: 400;
+font-size: 60px;
+line-height: 77px;
+background: #FFF7E3;
+box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.5);
+border-radius: 10px;
+cursor: pointer;
+}
+
+
+
+div.cpf {
+position: absolute;
+width: 847px;
+height: 180px;
+left: 510px;
+top: 585px;
+background: #FFF7E3;
+border-radius: 10px;
+}
+
+#invalidos {
+position: absolute;
+width: 750px;
+height: 149px;
+left: 570px;
+top: 650px;
+font-family: 'Teko';
+font-style: normal;
+font-weight: 400;
+font-size: 36px;
+line-height: .45;
+text-transform: uppercase;
+color: #000000;
+}
+
+h3 {
+position: absolute;
+width: 750px;
+height: 149px;
+left: 775px;
+top: 580px;
+font-family: 'Teko';
+font-style: normal;
+font-weight: 400;
+font-size: 36px;
+line-height: .45;
+text-transform: uppercase;
+color: #000000;
+}
+
